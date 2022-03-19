@@ -5,7 +5,7 @@ project(2048 LANGUAGES C VERSION 1.0)
 #set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -fsanitize=address -g -fno-omit-frame-pointer -fno-sanitize-recover")
 #set (CMAKE_LINKER_FLAGS "${CMAKE_LINKER_FLAGS} -fno-omit-frame-pointer -fsanitize=address -fno-sanitize-recover")
 set(CMAKE_C_COMPILER_WORKS 1)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O2")
 set (CMAKE_LINKER_FLAGS "${CMAKE_LINKER_FLAGS}")
 
 
